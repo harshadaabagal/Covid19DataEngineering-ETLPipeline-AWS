@@ -41,6 +41,7 @@ In crafting an end-to-end data pipeline for this project, we employ a set of ver
 We're transforming our data model from a relational structure to a dimensional one by constructing a STAR schema.
 
 **Before Data Modeling**:
+
 ![Data_Model drawio](https://github.com/user-attachments/assets/4085f817-498a-4a07-86bd-4641ae5e3109)
 
 
