@@ -45,22 +45,17 @@ We're transforming our data model from a relational structure to a dimensional o
 # After Data Modeling:
 <img width="599" alt="Data_Model_STAR_Schema" src="https://github.com/user-attachments/assets/0ac211d7-1ca0-42db-aac9-3475b344ebae">
 
-Example Image
-
-This transformation enhances our data's accessibility, making it easier to analyze and derive valuable insights. The STAR schema simplifies data relationships, ensuring that our data becomes a powerful resource for analysis and decision-making.
-
-
-Important Prerequisites
+# Important Prerequisites
 To ensure the successful launch of your COVID-19 Data Engineering Project, there are several key prerequisites that need to be in place:
 
-IAM Role "s3-glue-role" : This pivotal role is designed to empower AWS Glue with the permissions necessary to initiate AWS service calls on your behalf, ensuring a smooth data engineering process.
+**IAM Role "s3-glue-role** : This pivotal role is designed to empower AWS Glue with the permissions necessary to initiate AWS service calls on your behalf, ensuring a smooth data engineering process.
 
-Redshift Cluster Setup and VPC Security Configuration : The setup of your Redshift cluster is the foundation of your project. Additionally, it's imperative to fine-tune the VPC security group by adding a new rule to allow inbound access from your IP address, creating a secure gateway for data.
+**Redshift Cluster Setup and VPC Security Configuration** : The setup of your Redshift cluster is the foundation of your project. Additionally, it's imperative to fine-tune the VPC security group by adding a new rule to allow inbound access from your IP address, creating a secure gateway for data.
 
-IAM Role "redshift_s3_access" : This role is a linchpin in the project, as it grants Redshift the essential permissions required to access data stored in Amazon S3, fostering data integration and accessibility.
+**IAM Role "redshift_s3_access** : This role is a linchpin in the project, as it grants Redshift the essential permissions required to access data stored in Amazon S3, fostering data integration and accessibility.
 
-Glue Environment Preparedness for Redshift Job : Before you embark on creating a Glue job, make sure to download the essential external libraries, including the redshift-connector and boto3. Given that Glue has limited support for default libraries, bundle these libraries into a zip package and upload it to an S3 bucket. This will ensure your Glue environment is fully equipped for the job.
+**Glue Environment Preparedness for Redshift Job** : Before you embark on creating a Glue job, make sure to download the essential external libraries, including the redshift-connector and boto3. Given that Glue has limited support for default libraries, bundle these libraries into a zip package and upload it to an S3 bucket. This will ensure your Glue environment is fully equipped for the job.
 
-Establish Python "redshift_connector" Connection to Redshift Cluster : A successful project execution hinges on creating a robust Python 'redshift_connector' connection to your Redshift cluster, bridging the gap between your data and the cluster.
+**Establish Python "redshift_connector" Connection to Redshift Cluster** : A successful project execution hinges on creating a robust Python 'redshift_connector' connection to your Redshift cluster, bridging the gap between your data and the cluster.
 
-VPC Endpoint Creation for Amazon S3 : The creation of a VPC endpoint for Amazon S3 is a pivotal step in establishing seamless connectivity between your Glue job's VPC and S3. This connection ensures uninterrupted and secure data transfer.
+**VPC Endpoint Creation for Amazon S3** : The creation of a VPC endpoint for Amazon S3 is a pivotal step in establishing seamless connectivity between your Glue job's VPC and S3. This connection ensures uninterrupted and secure data transfer.
