@@ -1,6 +1,10 @@
 # Covid19DataEngineering-ETLPipeline-AWS
 This project follows the Extract, Transform, Load (ETL) approach, enabling users to seamlessly extract, load, and transform data, ultimately unlocking valuable insights. Our primary mission is to create an accessible and efficient data engineering project tailored for the analysis of COVID-19 data.
 
+# Architecture
+![Data_Pipeline_Architecture drawio](https://github.com/user-attachments/assets/2434722c-ee48-4595-8214-e801fca976aa)
+
+
 
 # Key steps
 Set Up the 'COVID-19 Data Lake on Amazon S3 : The project kicks off by putting the 'COVID-19 Data Lake' on Amazon S3, sourced from an Open Data Registry. This step lays the foundation for all data processing.
@@ -36,16 +40,12 @@ In crafting an end-to-end data pipeline for this project, we employ a set of ver
 # Data Model Transformation
 We're transforming our data model from a relational structure to a dimensional one by constructing a STAR schema.
 
-Before Data Modeling:
+**Before Data Modeling**:
+![Data_Model drawio](https://github.com/user-attachments/assets/4085f817-498a-4a07-86bd-4641ae5e3109)
 
 
-
-
-After Data Modeling:
-
-# Example Image
-
-This transformation enhances our data's accessibility, making it easier to analyze and derive valuable insights. The STAR schema simplifies data relationships, ensuring that our data becomes a powerful resource for analysis and decision-making.
+**After Data Modeling**:
+<img width="599" alt="Data_Model_STAR_Schema" src="https://github.com/user-attachments/assets/be980069-3153-483e-b652-119605838f9e">
 
 
 **Important Prerequisites**
