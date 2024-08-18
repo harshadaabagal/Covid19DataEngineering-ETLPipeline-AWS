@@ -1,4 +1,1 @@
-*.md linguist-documentation
-*.txt linguist-documentation
-*.LICENSE linguist-documentation
-*.roff linguist-vendored
+*.ipynb linguist-language=Jupyter Notebook
