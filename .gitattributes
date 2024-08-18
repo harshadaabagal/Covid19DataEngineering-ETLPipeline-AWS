@@ -1,1 +1,4 @@
-*.ipynb linguist-language=roff
+*.md linguist-documentation
+*.txt linguist-documentation
+*.LICENSE linguist-documentation
+*.roff linguist-vendored
