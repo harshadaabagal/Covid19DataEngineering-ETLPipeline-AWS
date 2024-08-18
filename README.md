@@ -49,8 +49,8 @@ We're transforming our data model from a relational structure to a dimensional o
 
 <img width="599" alt="Data_Model_STAR_Schema" src="https://github.com/user-attachments/assets/be980069-3153-483e-b652-119605838f9e">
 
+# Important Prerequisites
 
-**Important Prerequisites**
 To ensure the successful launch of your COVID-19 Data Engineering Project, there are several key prerequisites that need to be in place:
 
 **IAM Role "s3-glue-role** : This pivotal role is designed to empower AWS Glue with the permissions necessary to initiate AWS service calls on your behalf, ensuring a smooth data engineering process.
