@@ -2,13 +2,12 @@
 This project follows the Extract, Transform, Load (ETL) approach, enabling users to seamlessly extract, load, and transform data, ultimately unlocking valuable insights. Our primary mission is to create an accessible and efficient data engineering project tailored for the analysis of COVID-19 data.
 
 # Architecture
-<img width="599" alt="Data_Model_STAR_Schema" src="https://github.com/user-attachments/assets/12711b6b-0d29-4e23-bd86-e0a20c591638">
-
+![Data_Pipeline_Architecture drawio](https://github.com/user-attachments/assets/d5646527-57a7-4bc4-838c-8af389925e2e)
 
 # Key steps
 Set Up the 'COVID-19 Data Lake on Amazon S3 : The project kicks off by putting the 'COVID-19 Data Lake' on Amazon S3, sourced from an Open Data Registry. This step lays the foundation for all data processing.
 
-# Dataset - https://aws.amazon.com/blogs/big-data/a-public-data-lake-for-analysis-of-covid-19-data/
+**Dataset** - https://aws.amazon.com/blogs/big-data/a-public-data-lake-for-analysis-of-covid-19-data/
 
 **Create Run Crawlers in Amazon Athena** : Following the initial data upload, the project takes a significant step by running crawlers within Amazon Athena. These smart crawlers carefully explore tables stored in Amazon S3 buckets. Their goal is to expertly extract organized data, making it easy for detailed analysis.
 
