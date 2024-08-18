@@ -5,7 +5,7 @@ This project follows the Extract, Transform, Load (ETL) approach, enabling users
 # Key steps
 Set Up the 'COVID-19 Data Lake on Amazon S3 : The project kicks off by putting the 'COVID-19 Data Lake' on Amazon S3, sourced from an Open Data Registry. This step lays the foundation for all data processing.
 
-# Dataset - https://aws.amazon.com/blogs/big-data/a-public-data-lake-for-analysis-of-covid-19-data/
+Dataset - https://aws.amazon.com/blogs/big-data/a-public-data-lake-for-analysis-of-covid-19-data/
 
 Create Run Crawlers in Amazon Athena : Following the initial data upload, the project takes a significant step by running crawlers within Amazon Athena. These smart crawlers carefully explore tables stored in Amazon S3 buckets. Their goal is to expertly extract organized data, making it easy for detailed analysis.
 
