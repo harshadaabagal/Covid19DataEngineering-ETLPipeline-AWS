@@ -2,7 +2,7 @@
 This project follows the Extract, Transform, Load (ETL) approach, enabling users to seamlessly extract, load, and transform data, ultimately unlocking valuable insights. Our primary mission is to create an accessible and efficient data engineering project tailored for the analysis of COVID-19 data.
 
 # Architecture
-![Data_Pipeline_Architecture drawio](https://github.com/user-attachments/assets/2434722c-ee48-4595-8214-e801fca976aa)
+
 
 
 
@@ -42,12 +42,12 @@ We're transforming our data model from a relational structure to a dimensional o
 
 **Before Data Modeling**:
 
-![Data_Model drawio](https://github.com/user-attachments/assets/4085f817-498a-4a07-86bd-4641ae5e3109)
+
 
 
 **After Data Modeling**:
 
-<img width="599" alt="Data_Model_STAR_Schema" src="https://github.com/user-attachments/assets/be980069-3153-483e-b652-119605838f9e">
+
 
 # Important Prerequisites
 
