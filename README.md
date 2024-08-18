@@ -2,10 +2,10 @@
 This project follows the Extract, Transform, Load (ETL) approach, enabling users to seamlessly extract, load, and transform data, ultimately unlocking valuable insights. Our primary mission is to create an accessible and efficient data engineering project tailored for the analysis of COVID-19 data.
 
 
-Key steps
+# Key steps
 Set Up the 'COVID-19 Data Lake on Amazon S3 : The project kicks off by putting the 'COVID-19 Data Lake' on Amazon S3, sourced from an Open Data Registry. This step lays the foundation for all data processing.
 
-Dataset - https://aws.amazon.com/blogs/big-data/a-public-data-lake-for-analysis-of-covid-19-data/
+# Dataset - https://aws.amazon.com/blogs/big-data/a-public-data-lake-for-analysis-of-covid-19-data/
 
 Create Run Crawlers in Amazon Athena : Following the initial data upload, the project takes a significant step by running crawlers within Amazon Athena. These smart crawlers carefully explore tables stored in Amazon S3 buckets. Their goal is to expertly extract organized data, making it easy for detailed analysis.
 
@@ -15,7 +15,7 @@ Upload Transformed Data to Amazon S3 : After the ETL job is executed, the result
 
 Create, Configure VPC Networking, Connect, and Run ETL Job in AWS Glue : In this step, we create and configure Virtual Private Cloud (VPC) networking. By establishing secure communication and connectivity, we can seamlessly run the ETL job in AWS Glue to create tables in Amazon Redshift.
 
-Tools and Technologies - Powering Your Data Pipeline
+# Tools and Technologies - Powering Your Data Pipeline
 In crafting an end-to-end data pipeline for this project, we employ a set of versatile and robust tools and technologies:
 
 Python : A versatile programming language, Python plays a pivotal role in data extraction, transformation, and loading. It's a cornerstone of our data processing.
@@ -33,7 +33,7 @@ Amazon S3 : Amazon S3, known as Simple Storage Service, acts as the bedrock for 
 IAM (Identity and Access Management) : IAM is our guardian for managing user access and permissions across various AWS resources. It ensures that data handling remains secure and well-controlled.
 
 
-Data Model Transformation
+# Data Model Transformation
 We're transforming our data model from a relational structure to a dimensional one by constructing a STAR schema.
 
 Before Data Modeling:
@@ -43,7 +43,7 @@ Before Data Modeling:
 
 After Data Modeling:
 
-Example Image
+# Example Image
 
 This transformation enhances our data's accessibility, making it easier to analyze and derive valuable insights. The STAR schema simplifies data relationships, ensuring that our data becomes a powerful resource for analysis and decision-making.
 
