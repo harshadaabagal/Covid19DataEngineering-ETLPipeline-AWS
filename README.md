@@ -45,6 +45,7 @@ We're transforming our data model from a relational structure to a dimensional o
 
 
 **After Data Modeling**:
+
 <img width="599" alt="Data_Model_STAR_Schema" src="https://github.com/user-attachments/assets/be980069-3153-483e-b652-119605838f9e">
 
 
